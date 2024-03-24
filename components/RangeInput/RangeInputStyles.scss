@@ -1,0 +1,58 @@
+$input-bg: #cfa8f3;
+$input-color: #5d04aa;
+$input-height: 10px;
+$input-handle-size: 40px;
+
+.range-input {
+  position: relative;
+  height: $input-height;
+  background-color: $input-bg;
+  border-radius: $input-height;
+  cursor: pointer;
+  
+  .range-input__bar {
+    position: absolute;
+    left: 0;
+    top: -3px;
+    height: 150%;
+    background-color: $input-color;
+    border-radius: $input-height;
+  }
+  
+  .range-input__handle {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: calc(-1 * $input-handle-size / 2);
+    width: $input-handle-size;
+    height: 40px;
+    background-color: $input-color;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  }
+  
+  .range-input__label {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $input-bg;
+    user-select: none;
+  }
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
