@@ -146,3 +146,5 @@ Below is the complete git workflow.
 * [GitHub Project](https://github.com/zafar-saleem/range-input)
 * [Commits](https://github.com/zafar-saleem/range-input/commits/main/)
 * [CI/CD Pipelines](https://github.com/zafar-saleem/range-input/deployments)
+* [Branches](https://github.com/zafar-saleem/range-input/branches)
+* [Live Demo](https://range-input-omega.vercel.app/)
