@@ -30,8 +30,6 @@
 ![Range Input](screenshots/screenshot.png)
 Custom built range input component.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 ### Built With
@@ -48,8 +46,6 @@ Below are the core technologies I used for this project.
 * [prettier](https://prettier.io/)
 * [husky](https://github.com/typicode/husky)
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -82,8 +78,6 @@ To install yarn run the command below.
    yarn
    ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- USAGE EXAMPLES -->
 ## Usage
 
@@ -92,8 +86,6 @@ To run the project, below command will help.
   ```sh
   yarn dev
   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -129,16 +121,12 @@ To run the project, below command will help.
   └── yarn.lock
   ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- GIT STRATEGY -->
 ## Git Strategy
 
 Below is the complete git workflow.
 
 ![Screenshot](screenshots/git-strategy.png)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- DEV LINKS -->
 ## Dev Links
